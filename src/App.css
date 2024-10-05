@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
+  background-color: #222223;
   min-height: 100vh;
+  /* padding: 50px; */
+}
+
+
+.Card_container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 270px;
+  height: 350px;
+  /* background-color: rgb(58, 58, 59); */
+  border-radius: 24px;
+  background-color: rgb(38, 38, 39);
+  /* box-shadow: 0 0 20px rgba(66, 66, 66, 0.3); */
 }
 
-.App-link {
-  color: #61dafb;
+.Card_container:hover .Card_button{
+background-color: #ffffff;
+color: #222223;
+box-shadow: 0 0 60px rgba(255, 255, 255, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Card_project_icon_img{
+  width: 65px;
+  height: 65px;
+  border-radius: 16px;
+  margin: 25px 0px 0px 25px;
 }
+
+.Card_project_title{
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.Card_project_description{
+  color: #a7a7a7;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+ margin: 20px 30px 20px 30px;
+  
+}
+
+.Card_button{
+  width: 130px;
+  height: 50px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255, 0.06);
+  color: #ffffff;
+  transition: background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),box-shadow 0.3s ease;;
+  transition: color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 15px;
+  /* padding: 0px 10px; */
+  border: none;
+  /* margin: 10px 40px; */
+  
+}
+
+.Card_button2{
+  width: 70px;
+  height: 50px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255, 0.06);
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 0px 10px;
+  border: none;
+  /* margin: 10px 40px; */
+}
+
+.strip{
+  height: 5px;
+  width: 100%;
+  background-color: #4EA72E;
+}
+
+/* About ME*/
+.About_container{
+  margin:0px 35% ;
+  padding: 80px 0px;
+  min-height:100vh;
+}
+@media screen and (max-width: 1400px) {
+  .About_container{
+    margin:0px 30% ;
+    padding: 80px 0px;
+    min-height:100vh;
+  
+   }
+}
+
+@media screen and (max-width: 900px) {
+  .About_container{
+    margin:0px 10%;
+    padding: 80px 0px;
+    min-height:100vh;
+   }
+}
+
+ .About_container ul {
+  list-style-type: circle;
+  color: #ffffff;
+ }
+ .About_container ul li{
+  margin-bottom: 20px;
+ }
+ .About_name{
+  font-size: 26px;
+  color: #ffffff;
+ }
+
+ .About_description
+ {
+  color: #a7a7a7;
+  font-size: 16px;
+  padding: 30px 0px 0px 0px;
+ }
+
+ .About_subheading{
+  font-size: 20px;
+  color: #ffffff;
+
+ }
+ .About_projectTitle{
+  color: #ffffff;
+  font-size: 16px;
+  /* padding: 5px 5px 5px 5px ; */
+ }
+ .About_projectDescription{
+  color: #a7a7a7;
+  font-size: 14px;
+  /* padding: 15px 5px; */
+ }
+
+ .About_getInTouch ul li{
+  list-style-type: square;
+  color: #ffffff;
+  
+ }
+ .About_getInTouch ul li a{
+  text-decoration: underline;
+  color: #a7a7a7;
+ }
+
+ .About_cardContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr); /* 3 rows */
+  gap: 16px; /* Space between cards */
+  width: 100%; /* Adjust as needed */
+  max-width: 800px; /* Optional: max width for the container */
+  margin: 40px 0px; /* Center the container */
+
+ }
+ 
