@@ -17,17 +17,13 @@ const AboutMe = () => {
 <br />
 <br />
 Currently, I focus on transforming monolithic applications into efficient microservices, enhancing data handling, and streamlining workflows. I am passionate about leveraging cloud technologies and containerization to deliver high-quality, resilient software that meets dynamic user needs.
+<br />Here is a link to my latest <a href="">Resume &rarr;</a>
 
 
 
        </p>
 
-       <span  className='About_subheading'>Projects</span>
-       <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>Springboot</li>
-       </ul>
+       
         <span  className='About_subheading'>Projects</span>
 {flag?<>  <ul>
             <li><span className='About_projectTitle'>Ping Pong Scores</span><br /><span className='About_projectDescription'> This project tracks live Ping Pong scores using a Spring Boot backend, MongoDB, and a React frontend for real-time updates.</span></li>
@@ -43,17 +39,14 @@ Currently, I focus on transforming monolithic applications into efficient micros
 
       
 
-        <span  className='About_subheading'>Get in touch</span>
+        <span  className='About_subheading'>Get in touch with me</span>
         <div className="About_getInTouch">
+          <p className='About_getInTouchDesc'>
+          Feel free to reach out to me at paulchinta7@gmail.com. You can also explore my projects on <a href="https://github.com/PaulChinta7" target='_blank'>Github &rarr;</a>, or check out my latest updates on <a href="https://www.linkedin.com/in/paulchinta/"> LinkedIn &rarr;</a>.</p>
 
-        <ul>
-            <li> <a href="https://www.linkedin.com/in/paulchinta/">LinkedIn </a></li>
-            <li> <a href="https://github.com/PaulChinta7" target='_blank'>Github </a></li>
-            <li> <a href="">Discord</a></li>
-            <li> <a href="paulchinta7@gmail.com">Email</a></li>
-            
-        </ul>
+       
         </div>
+        <span  className='About_copyright'>c copyright</span>
 
     </div>
   </>

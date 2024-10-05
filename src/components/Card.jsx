@@ -1,11 +1,13 @@
 import React from 'react'
 import logo from "../logo.png"
+
 const Card = (props) => {
     const logo=props.logo;
     const title=props.title;
     const description=props.description;
     const published=props.published;
     const link=props.link;
+    const link2=props.link2;
     // const published=true;
 
     
@@ -23,10 +25,10 @@ const Card = (props) => {
             {description}
         </div>
         <div className='flex'> 
-            {published?<> <button className='Card_button'>Link</button>
+            {published?<> <button className='Card_button'> Link</button>
                 <button className='Card_button2'>Github</button> </>:
                 <>
-        <button className='Card_button'>Github</button></>}
+        <button className='Card_button'>Github </button></>}
        
         </div>
     </div>
