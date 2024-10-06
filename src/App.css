@@ -3,7 +3,9 @@
   min-height: 100vh;
   /* padding: 50px; */
 }
-
+a{
+  text-decoration: none;
+}
 
 .Card_container{
   display: flex;

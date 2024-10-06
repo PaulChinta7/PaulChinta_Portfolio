@@ -37,7 +37,13 @@ Currently, I focus on transforming monolithic applications into efficient micros
         </div>
         </>}
 
-      
+        <span  className='About_subheading'>Skills</span>
+        <div>
+          <span>SpringBoot</span>
+          <span>React</span>
+          <span>Angular</span>
+          <span>AWS</span>
+        </div>
 
         <span  className='About_subheading'>Get in touch with me</span>
         <div className="About_getInTouch">
