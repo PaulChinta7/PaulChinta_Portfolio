@@ -7,6 +7,17 @@ a{
   text-decoration: none;
 }
 
+.material-icons {
+  font-size: 24px; /* Adjust size as needed */
+  color: #ffffff;  /* Your desired color */
+  vertical-align: middle; /* Center the icon */
+  line-height: 24px; /* Match this to the font size for alignment */
+}
+
+.material-icons:hover{
+  color: #4EA72E;
+}
+
 .Card_container{
   display: flex;
   flex-direction: column;
@@ -92,6 +103,24 @@ box-shadow: 0 0 60px rgba(255, 255, 255, 0.3);
   /* margin: 10px 40px; */
 }
 
+.ListCard_container{
+  display: flex;
+
+}
+.List_project_icon_img{
+  width: 65px;
+  height: 65px;
+  border-radius: 16px;
+  margin: 15px;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
 .strip{
   height: 5px;
   width: 100%;
@@ -101,8 +130,9 @@ box-shadow: 0 0 60px rgba(255, 255, 255, 0.3);
 /* About ME*/
 .About_container{
   margin:0px 35% ;
-  padding: 80px 0px;
+  padding: 80px 0px 20px 0px;
   min-height:100vh;
+  
 }
 @media screen and (max-width: 1400px) {
   .About_container{
@@ -166,10 +196,10 @@ box-shadow: 0 0 60px rgba(255, 255, 255, 0.3);
   color: #ffffff;
   
  }
- .About_getInTouch ul li a{
+ /* .About_getInTouch ul li a{
   text-decoration: underline;
   color: #a7a7a7;
- }
+ } */
 
  .About_cardContainer{
   display: grid;
